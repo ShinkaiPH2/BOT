@@ -6,9 +6,9 @@ import threading
 from discord.ext import commands
 import os
 import random
-token = "MTA0ODEyODI1ODk0MTY2NTM3MQ.GlX5Zb.zow7O8x5YBQxDBKFV0-3xQ2eTvQaDu_7SYgr_I"
-BotChannelId = 1048128915241185290
-ProxyBotChannelId = 1048128965824495696
+token = "MTA1MDQyMTQxODUxMDI2NjQ1OA.Ghua2A.dxs3dJsN-ZKst_7fVxGonQjkEKIbj0tsSKTWl4"
+BotChannelId = 1028354085344260192
+ProxyBotChannelId = 1028354085344260193
 client = commands.Bot(command_prefix='xd!',intents=discord.Intents.all()) 
 colors = [0xFFE4E1, 0x00FF7F, 0xD8BFD8, 0xDC143C, 0xFF4500, 0xDEB887, 0xADFF2F, 0x800000, 0x4682B4, 0x006400, 0x808080, 0xA0522D, 0xF08080, 0xC71585, 0xFFB6C1, 0x00CED1]
 client.remove_command('help')
